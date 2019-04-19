@@ -30,5 +30,6 @@ function destructivelyPrependKitten() {
     return ['Arnold',...kittens];
   }
   
-  function destructivelyRemoveFirstKitten() {
-    return kittens.shift();
+  function removeLastKitten() {
+    return kittens.slice();
+  }
