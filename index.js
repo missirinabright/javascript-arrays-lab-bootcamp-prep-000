@@ -25,3 +25,7 @@ function destructivelyPrependKitten() {
   function prependKitten() {
     return [...kittens, 'Broom'];
   }
+  
+  function prependKitten() {
+    return ['Arnold',...kittens];
+  }
