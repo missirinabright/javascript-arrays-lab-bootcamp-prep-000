@@ -21,3 +21,7 @@ function destructivelyPrependKitten() {
   function appendKitten() {
     return [...kittens, 'Broom'];
   }
+  
+  function prependKitten() {
+    return [...kittens, 'Broom'];
+  }
